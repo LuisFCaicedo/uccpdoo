@@ -28,4 +28,7 @@ class CanchaReserva {
             System.out.println("Fecha y Hora: " + entry.getKey() + ", Usuario: " + entry.getValue());
         }
     }
+    public String getPatron() {
+        return "Singleton";
+    }
 }
