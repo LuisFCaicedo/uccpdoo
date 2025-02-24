@@ -1,22 +1,19 @@
-package co.edu.ucc.LuisCaicedo.Abstract_Factory;
+package co.edu.ucc.LuisCaicedo.Builder;
 
 public class Main {
     public static void main(String[] args) {
-
         imprimirEncabezado();
 
-        Identidad identidad = new Identidad("Luis Caicedo");        
-        BancoFactory bancoCorriente = new BancoCorrienteFactory();
-        Cuenta cuentaCorriente = bancoCorriente.crearCuenta();
-        Tarjeta tarjetaDebito = bancoCorriente.crearTarjeta();
-        cuentaCorriente.abrir();
-        tarjetaDebito.emitir();
+        Identidad identidad = new Identidad("Luis Caicedo"); 
 
-        BancoFactory bancoAhorros = new BancoAhorrosFactory();
-        Cuenta cuentaAhorros = bancoAhorros.crearCuenta();
-        Tarjeta tarjetaCredito = bancoAhorros.crearTarjeta();
-        cuentaAhorros.abrir();
-        tarjetaCredito.emitir();
+        Medico medico = new Medico();
+        PacienteBuilder pacienteGripeBuilder = new PacienteGripeBuilder();
+
+        medico.setPacienteBuilder(pacienteGripeBuilder);
+        medico.construirPaciente();
+
+        Paciente paciente = medico.getPaciente();
+        paciente.mostrarInfo();
 
         // Imprimir identidad codificada solo al final
         System.out.println("La indentidad del estudiante en Base64 es: " + identidad.getNombreCodificado());
@@ -24,7 +21,7 @@ public class Main {
     public static void imprimirEncabezado() {
         System.out.println("=============================================");
         System.out.println(" 👷         BIENVENIDO A LA UCC      👷     ");
-        System.out.println("         Cuenta - Abstract Factory           ");
+        System.out.println("             Paciente - Builder              ");
         System.out.println("=============================================");
         System.out.println("Ejecutado por: Luis Fernando Caicedo Solis"   );
         System.out.println("Patrones de Diseño Orientado a Odjeto        ");
@@ -33,4 +30,3 @@ public class Main {
         System.out.println();
     }
 }
-
