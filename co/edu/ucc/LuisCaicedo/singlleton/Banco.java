@@ -1,3 +1,4 @@
+package co.edu.ucc.LuisCaicedo.singlleton;
 import java.util.Base64;
 
 public class Banco {
