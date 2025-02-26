@@ -10,7 +10,8 @@ public class Main {
         Database db1 = Database.getInstance();
         db1.ejecutarConsulta("SELECT * FROM pedidos");
 
-        db1.getPatron();
+        String patron = db1.getPatron();
+        System.out.println("Patrón utilizado: " + patron);
 
         System.out.println("La indentidad del estudiante en Base64 es: " + identidad.getNombreCodificado());
     }
