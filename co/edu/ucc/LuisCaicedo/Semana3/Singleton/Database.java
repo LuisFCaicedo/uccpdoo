@@ -12,5 +12,8 @@ class Database {
     public void ejecutarConsulta(String consulta) {
         System.out.println("Ejecutando: " + consulta);
     }
+    public String getPatron() {
+        return "Singleton";
+    }
 }
 
