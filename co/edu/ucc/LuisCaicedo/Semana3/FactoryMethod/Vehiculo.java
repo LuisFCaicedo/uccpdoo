@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Factory_Method;
+package co.edu.ucc.LuisCaicedo.Semana3.FactoryMethod;
 
 interface Vehiculo {
     void conducir();
