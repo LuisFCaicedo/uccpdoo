@@ -11,7 +11,7 @@ interface PensionCalcul {
 }
 
 // Implementaciones de las leyes de pensión
-class Ley78 implements PensionCal
+class Ley78 implements PensionCalcul {
     public double calcularPension(double salario) {
         return salario * 15;
     }
@@ -118,4 +118,8 @@ class SystemaLiquidacionPension {
         }
         System.out.println("Total pagado en pensiones: " + formatoMoneda.format(totalPension));
     }
+    public String getPatron() {
+        return "Factory Method";
+    }
 }
+
