@@ -3,6 +3,10 @@ package co.edu.ucc.LuisCaicedo.Semana3.Historia1;
 // Definición de la clase base Vehiculo
 abstract class Vehiculo {
     public abstract void encender();
+
+    public String getPatron() {
+        return "Factory Method";
+    }
 }
 
 // Implementaciones concretas de Vehiculo
@@ -37,9 +41,6 @@ class CarroGasolinaFactory extends VehiculoFactory {
     
     public Vehiculo crearVehiculo() {
         return new CarroGasolina();
-    }
-    public String getPatron() {
-        return "Factory Method";
     }
 }
 

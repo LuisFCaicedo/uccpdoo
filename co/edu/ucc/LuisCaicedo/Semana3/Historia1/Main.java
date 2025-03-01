@@ -6,6 +6,8 @@ public class Main {
 
         imprimirEncabezado();
 
+        Identidad identidad = new Identidad("Luis Caicedo");
+
         // Crear vehículos usando el Factory Method
         VehiculoFactory factory1 = new CarroElectricoFactory();
         Vehiculo v1 = factory1.crearVehiculo();
@@ -15,7 +17,8 @@ public class Main {
         Vehiculo v2 = factory2.crearVehiculo();
         v2.encender();
 
-        System.out.println("Patrón utilizado: " + getPatron());
+        System.out.println("Patrón utilizado: " + v1.getPatron());
+        System.out.println("La indentidad del estudiante en Base64 es: " + identidad.getNombreCodificado());
     }
     public static void imprimirEncabezado() {
         System.out.println("=============================================");
