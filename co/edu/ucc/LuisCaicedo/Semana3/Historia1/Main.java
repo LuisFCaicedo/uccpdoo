@@ -3,6 +3,9 @@ package co.edu.ucc.LuisCaicedo.Semana3.Historia1;
 // Clase principal con el método main para ejecutar el programa
 public class Main {
     public static void main(String[] args) {
+
+        imprimirEncabezado();
+
         // Crear vehículos usando el Factory Method
         VehiculoFactory factory1 = new CarroElectricoFactory();
         Vehiculo v1 = factory1.crearVehiculo();
@@ -13,5 +16,16 @@ public class Main {
         v2.encender();
 
         System.out.println("Patrón utilizado: " + getPatron());
+    }
+    public static void imprimirEncabezado() {
+        System.out.println("=============================================");
+        System.out.println(" 👷         BIENVENIDO A LA UCC      👷     ");
+        System.out.println("         Vehiculo - Factory Method           ");
+        System.out.println("=============================================");
+        System.out.println("Ejecutado por: Luis Fernando Caicedo Solis"   );
+        System.out.println("Patrones de Diseño Orientado a Odjeto        ");
+        System.out.println("Fecha de Creación: " + java.time.LocalDate.now());
+        System.out.println("=============================================");
+        System.out.println();
     }
 }
