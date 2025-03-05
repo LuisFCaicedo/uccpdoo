@@ -29,15 +29,24 @@ class VentanaDark implements Ventana {
 interface GUIFactory {
     Boton crearBoton();
     Ventana crearVentana();
+    void getPatron();
 }
  
 // Fábricas concretas
 class LightFactory implements GUIFactory {
     public Boton crearBoton() { return new BotonLight(); }
     public Ventana crearVentana() { return new VentanaLight(); }
+    public void getPatron() {
+        System.out.println("El patrón de diseño utilizado es: Abstract Factory");
+    }
 }
  
 class DarkFactory implements GUIFactory {
     public Boton crearBoton() { return new BotonDark(); }
     public Ventana crearVentana() { return new VentanaDark(); }
+    public void getPatron() {
+        System.out.println("El patrón de diseño utilizado es: Abstract Factory");
+    }
+    
 }
+
