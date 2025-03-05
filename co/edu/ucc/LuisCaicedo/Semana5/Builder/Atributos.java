@@ -47,7 +47,7 @@ class Usuario {
         return "Usuario: " + nombre + ", Edad: " + edad + ", Dirección: " + direccion + ", Teléfono: " + telefono;
     }
     public void getPatron() {
-        System.out.println("El patrón de diseño utilizado es: Abstract Factory");
+        System.out.println("El patrón de diseño utilizado es: Builder");
     }
 }
 
