@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Abstract_Factory;
+package ucc.LuisCaicedo.Abstract_Factory;
 
 import java.util.Base64;
 // Clase Identidad para manejar la codificación en Base64

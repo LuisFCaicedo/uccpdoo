@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Examen.Boleto;
+package ucc.LuisCaicedo.Examen.Boleto;
 
 import java.util.Base64;
 // Clase Identidad para manejar la codificación en Base64

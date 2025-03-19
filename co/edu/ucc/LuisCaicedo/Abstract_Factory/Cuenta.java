@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Abstract_Factory;
+package ucc.LuisCaicedo.Abstract_Factory;
 // Producto abstracto: Cuenta
 interface Cuenta {
     void abrir();

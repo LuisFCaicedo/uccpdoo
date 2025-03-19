@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Builder;
+package ucc.LuisCaicedo.Builder;
 
 // Producto: Paciente
 class Paciente {

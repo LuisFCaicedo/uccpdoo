@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Examen.Boleto;
+package ucc.LuisCaicedo.Examen.Boleto;
 
 public class Main {
     public static void main(String[] args) {

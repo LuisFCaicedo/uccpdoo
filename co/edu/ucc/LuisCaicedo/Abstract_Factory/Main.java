@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Abstract_Factory;
+package ucc.LuisCaicedo.Abstract_Factory;
 
 public class Main {
     public static void main(String[] args) {

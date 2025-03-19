@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Builder;
+package ucc.LuisCaicedo.Builder;
 
 public class Main {
     public static void main(String[] args) {
