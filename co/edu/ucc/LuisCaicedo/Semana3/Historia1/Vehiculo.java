@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Historia1;
+package ucc.LuisCaicedo.Semana3.Historia1;
 
 // Definición de la clase base Vehiculo
 abstract class Vehiculo {

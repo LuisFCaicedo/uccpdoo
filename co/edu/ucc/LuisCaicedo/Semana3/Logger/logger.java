@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Logger;
+package ucc.LuisCaicedo.Semana3.Logger;
 
 class Logger {
     private static Logger instance;

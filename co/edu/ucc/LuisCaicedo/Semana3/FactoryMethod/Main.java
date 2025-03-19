@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.FactoryMethod;
+package ucc.LuisCaicedo.Semana3.FactoryMethod;
 
 public class Main {
     public static void main(String[] args) {

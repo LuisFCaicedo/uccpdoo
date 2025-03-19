@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Figura;
+package ucc.LuisCaicedo.Semana3.Figura;
 
 public class Main {
     public static void main(String[] args) {

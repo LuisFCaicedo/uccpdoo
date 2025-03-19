@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Figura;
+package ucc.LuisCaicedo.Semana3.Figura;
 
 import java.util.Base64;
 // Clase Identidad para manejar la codificación en Base64

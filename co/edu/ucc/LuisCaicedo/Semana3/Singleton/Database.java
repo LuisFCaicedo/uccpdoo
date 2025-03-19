@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Singleton;
+package ucc.LuisCaicedo.Semana3.Singleton;
 
 class Database {
     private static Database instance;

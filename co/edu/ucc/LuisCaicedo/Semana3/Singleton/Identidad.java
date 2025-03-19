@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Singleton;
+package ucc.LuisCaicedo.Semana3.Singleton;
 
 import java.util.Base64;
 // Clase Identidad para manejar la codificación en Base64

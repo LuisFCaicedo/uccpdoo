@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Singleton;
+package ucc.LuisCaicedo.Semana3.Singleton;
 
 public class Main {
     public static void main(String[] args) {

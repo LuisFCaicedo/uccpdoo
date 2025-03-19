@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Historia1;
+package ucc.LuisCaicedo.Semana3.Historia1;
 
 // Clase principal con el método main para ejecutar el programa
 public class Main {

@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Semana3.Historia2;
+package ucc.LuisCaicedo.Semana3.Historia2;
 
 import java.util.*;
 import java.util.function.Supplier;
