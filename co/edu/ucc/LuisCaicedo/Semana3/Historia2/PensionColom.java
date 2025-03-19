@@ -6,6 +6,7 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 // Interfaz base para la estrategia de cálculo
+@SuppressWarnings("unused")
 interface PensionCalcul {
     double calcularPension(double salario);
 }

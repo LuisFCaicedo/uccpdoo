@@ -5,6 +5,7 @@ import java.util.function.Supplier;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+@SuppressWarnings("unused")
 public class Main {
     public static void main(String[] args) {
 
