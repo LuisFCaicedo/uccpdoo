@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Sector_Recreacion;
+package ucc.LuisCaicedo.Sector_Recreacion;
 
 public class Main {
     public static void main(String[] args) {

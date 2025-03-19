@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Prototype;
+package ucc.LuisCaicedo.Prototype;
 // Prototipo
 interface CuentaBancaria extends Cloneable {
     CuentaBancaria clone() throws CloneNotSupportedException;

@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Sector_Manufactura_Acero5;
+package ucc.LuisCaicedo.Sector_Manufactura_Acero5;
 
 import java.util.Base64;
 // Clase Identidad para manejar la codificación en Base64

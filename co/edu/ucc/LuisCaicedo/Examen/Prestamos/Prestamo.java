@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Examen.Prestamos;
+package ucc.LuisCaicedo.Examen.Prestamos;
 
 interface Prestamo {
     void mostrarDetalles();

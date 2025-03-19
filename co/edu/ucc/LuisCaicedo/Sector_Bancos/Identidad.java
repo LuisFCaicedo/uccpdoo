@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Sector_Bancos;
+package ucc.LuisCaicedo.Sector_Bancos;
 
 import java.util.Base64;
 // Clase Identidad para manejar la codificación en Base64

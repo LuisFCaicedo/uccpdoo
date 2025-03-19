@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Prototype;
+package ucc.LuisCaicedo.Prototype;
 
 public class Main {
     public static void main(String[] args) {

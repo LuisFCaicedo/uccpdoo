@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Sector_Recreacion;
+package ucc.LuisCaicedo.Sector_Recreacion;
 import java.util.HashMap;
 import java.util.Map;
 

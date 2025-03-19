@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Sector_Transporte;
+package ucc.LuisCaicedo.Sector_Transporte;
 
 class Boleto {
     private String viaje;

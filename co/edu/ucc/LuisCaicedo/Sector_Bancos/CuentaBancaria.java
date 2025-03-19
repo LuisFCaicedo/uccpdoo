@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Sector_Bancos;
+package ucc.LuisCaicedo.Sector_Bancos;
 
 class CuentaBancaria implements Cloneable {
     private String numeroCuenta;

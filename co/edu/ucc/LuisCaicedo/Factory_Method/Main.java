@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Factory_Method;
+package ucc.LuisCaicedo.Factory_Method;
 
 // Uso
 public class Main {

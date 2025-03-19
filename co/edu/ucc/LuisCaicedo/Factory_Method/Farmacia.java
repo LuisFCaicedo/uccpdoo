@@ -1,4 +1,4 @@
-package co.edu.ucc.LuisCaicedo.Factory_Method;
+package ucc.LuisCaicedo.Factory_Method;
 // Producto abstracto
 interface Medicamento {
     void administrar();
