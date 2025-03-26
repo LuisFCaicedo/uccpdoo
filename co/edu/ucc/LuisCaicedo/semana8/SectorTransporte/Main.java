@@ -22,7 +22,7 @@ class AdaptadorGPS implements LocalizadorWeb {
         System.out.println("Ubicación del camión: " + ubicacion);
     }
     public static String getPatron() {
-        return "Patrón Bridge";
+        return "Patrón Adapter";
     }
 }
  
@@ -41,7 +41,7 @@ public class Main {
     public static void imprimirEncabezado() {
         System.out.println("=============================================");
         System.out.println(" 👷         BIENVENIDO A LA UCC      👷     ");
-        System.out.println("                Patron Bridge                ");
+        System.out.println("                Patron Adapter                ");
         System.out.println("                 Historia 1                  ");
         System.out.println("Como administrador de flotas, necesito integrar el sistema GPS de los camiones, que usa un protocolo diferente, con la plataforma web de monitoreo de rutas en tiempo real.");
         System.out.println("=============================================");
