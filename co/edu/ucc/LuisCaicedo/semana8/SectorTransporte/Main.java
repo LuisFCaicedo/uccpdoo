@@ -42,7 +42,7 @@ public class Main {
         System.out.println("=============================================");
         System.out.println(" 👷         BIENVENIDO A LA UCC      👷     ");
         System.out.println("                Patron Adapter                ");
-        System.out.println("                 Historia 1                  ");
+        System.out.println("                 Historia 2                  ");
         System.out.println("Como administrador de flotas, necesito integrar el sistema GPS de los camiones, que usa un protocolo diferente, con la plataforma web de monitoreo de rutas en tiempo real.");
         System.out.println("=============================================");
         System.out.println("Ejecutado por: Luis Fernando Caicedo Solis"   );

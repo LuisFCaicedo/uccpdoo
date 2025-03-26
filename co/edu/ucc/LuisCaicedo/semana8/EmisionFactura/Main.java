@@ -55,8 +55,8 @@ public class Main {
         System.out.println("=============================================");
         System.out.println(" 👷         BIENVENIDO A LA UCC      👷     ");
         System.out.println("                Patron Bridge                ");
-        System.out.println("                 Historia 1                  ");
-        System.out.println("Como analista financiero, necesito que el nuevo sistema de facturación pueda generar reportes compatibles con el sistema contable antiguo de la empresa, sin cambiar la lógica principal del sistema nuevo.");
+        System.out.println("                 Historia 3                  ");
+        System.out.println("Como desarrollador de un sistema de facturación electrónica, necesito que el sistema pueda emitir facturas tanto en formato PDF como en XML, dependiendo del cliente.");
         System.out.println("=============================================");
         System.out.println("Ejecutado por: Luis Fernando Caicedo Solis"   );
         System.out.println("Patrones de Diseño Orientado a Odjeto        ");
