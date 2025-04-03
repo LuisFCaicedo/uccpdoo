@@ -33,7 +33,6 @@ public class Main {
         System.out.println(" 👷         BIENVENIDO A LA UCC      👷     ");
         System.out.println("           Patron Bridge y Adapter           ");
         System.out.println("          integra Adapter + Bridge           ");
-        System.out.println("Como desarrollador de un sistema de facturación electrónica, necesito que el sistema pueda emitir facturas tanto en formato PDF como en XML, dependiendo del cliente.");
         System.out.println("=============================================");
         System.out.println("Ejecutado por: Luis Fernando Caicedo Solis"   );
         System.out.println("Patrones de Diseño Orientado a Odjeto        ");
