@@ -1,4 +1,4 @@
-package ucc.LuisCaicedo.ExamenM2;
+package ucc.LuisCaicedo.ExamenM2.Builder;
 
 import java.util.function.Consumer;
 

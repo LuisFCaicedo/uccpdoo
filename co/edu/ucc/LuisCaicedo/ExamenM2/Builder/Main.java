@@ -1,4 +1,4 @@
-package ucc.LuisCaicedo.ExamenM2;
+package ucc.LuisCaicedo.ExamenM2.Builder;
 
 public class Main {
     public static void main(String[] args) {
