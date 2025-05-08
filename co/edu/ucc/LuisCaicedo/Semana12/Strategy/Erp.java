@@ -38,6 +38,6 @@ class CalculadoraImpuesto {
         return estrategia.calcular(monto);
     }
     public static String getPatron() {
-        return "Patrón Proxy";
+        return "Patrón Strategy";
     }
 }
