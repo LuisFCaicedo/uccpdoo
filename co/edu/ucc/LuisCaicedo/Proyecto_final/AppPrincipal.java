@@ -14,6 +14,9 @@ import ucc.LuisCaicedo.Proyecto_final.uberapp.Historia8.Historia8_Seguridad;
 
 public class AppPrincipal {
     public static void main(String[] args) {
+        GetIdentidad identidad = new GetIdentidad("", "Proyecto Final");
+        identidad.getEncabezado();
+        identidad.getNombre();
         Scanner scanner = new Scanner(System.in);
         int opcion;
 
