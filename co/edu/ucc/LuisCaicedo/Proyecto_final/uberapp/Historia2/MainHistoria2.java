@@ -2,7 +2,9 @@ package ucc.LuisCaicedo.Proyecto_final.uberapp.Historia2;
 
 import ucc.LuisCaicedo.Proyecto_final.uberapp.Historia2.FabricaViaje;
 import ucc.LuisCaicedo.Proyecto_final.uberapp.Historia2.SolicitudViaje;
+import ucc.LuisCaicedo.Proyecto_final.uberapp.comun.BaseDatosViajes;
 import ucc.LuisCaicedo.Proyecto_final.uberapp.Historia2.*;
+import ucc.LuisCaicedo.Proyecto_final.uberapp.comun.BaseDatosViajes;
 
 import java.util.Scanner;
 
@@ -24,6 +26,7 @@ public class MainHistoria2 {
     String metodoPago = scanner.nextLine();
 
     SolicitudViaje solicitud = FabricaViaje.crearSolicitud(tipo, origen, destino, metodoPago);
+    BaseDatosViajes.guardarViaje(solicitud);
 
     System.out.print("¿Desea ejecutar (e) o cancelar (c) la solicitud?: ");
     String opcion = scanner.nextLine();
